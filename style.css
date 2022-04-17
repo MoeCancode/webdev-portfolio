@@ -43,7 +43,7 @@ body {
     height: 80px;
     margin-right: 20px;
     border-radius: 50%;
-    border: 5px solid rgb(75, 34, 98);
+    border: 5px solid rgb(56, 56, 56);
     max-width: 80%;
 }
 
@@ -54,7 +54,7 @@ body {
     padding-top: 40px;
     padding-left: 15px;
     padding-right: 15px;
-    box-shadow: 5px 9px rgb(37, 16, 48);
+    box-shadow: 5px 9px rgb(56, 56, 56);
 
 }
 
@@ -80,10 +80,40 @@ body {
 }
 
 .textDiv h3 {
-    color: rgb(87, 40, 114);
+    color: rgb(128, 128, 128);
     transition: ease-in-out 0.8s;
 }
 
 .textDiv h3:hover {
     text-shadow: #603c67 0 5px 15px;
+}
+
+.sectionTwo {
+    margin: 25px;
+    margin-top: 45px;
+    background-color: rgb(0, 2, 16);
+    border-radius: 15px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 5px 9px rgb(56, 56, 56);
+}
+
+#aboutPicture {
+    width: 360px;
+    height: auto;
+    filter: brightness(75%);
+    border-radius: 5%;
+}
+
+.aboutMeText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.aboutMeText .col p {
+    color: rgb(128, 128, 128);
+    font-size: 35px;
 }
