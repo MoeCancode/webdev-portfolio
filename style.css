@@ -111,9 +111,10 @@ body {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 25px;
 }
 
-.aboutMeText .col p {
+.aboutMeText h3 {
     color: rgb(128, 128, 128);
     font-size: 35px;
 }
