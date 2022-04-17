@@ -42,7 +42,7 @@ body {
     height: 80px;
     margin-right: 20px;
     border-radius: 50%;
-    border: 5px solid rgb(23, 27, 59);
+    border: 5px solid rgb(75, 34, 98);
 }
 
 .sectionOne {
@@ -58,6 +58,7 @@ body {
 #heroImage {
     width: 40em;
     height: auto;
+    filter: brightness(55%);
 }
 
 .col {
@@ -67,5 +68,9 @@ body {
 }
 
 .textDiv span {
-    font-size: 22px;
+    font-size: 20px;
+}
+
+.textDiv h3 {
+    color: rgb(87, 40, 114);
 }
