@@ -14,6 +14,7 @@ body {
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 20px;
+    margin-bottom: 35px;
 }
 
 .navbar a {
@@ -43,6 +44,7 @@ body {
     margin-right: 20px;
     border-radius: 50%;
     border: 5px solid rgb(75, 34, 98);
+    max-width: 80%;
 }
 
 .sectionOne {
@@ -52,6 +54,7 @@ body {
     padding-top: 40px;
     padding-left: 15px;
     padding-right: 15px;
+    box-shadow: 5px 9px rgb(37, 16, 48);
 
 }
 
@@ -69,8 +72,18 @@ body {
 
 .textDiv span {
     font-size: 20px;
+    transition: ease-in-out 0.8s;
+}
+
+.textDiv span:hover {
+    text-shadow: #bbbba7 0 5px 15px;
 }
 
 .textDiv h3 {
     color: rgb(87, 40, 114);
+    transition: ease-in-out 0.8s;
+}
+
+.textDiv h3:hover {
+    text-shadow: #603c67 0 5px 15px;
 }
