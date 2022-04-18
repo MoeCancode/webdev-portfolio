@@ -6,7 +6,7 @@
 body {
     font-family: 'futuraBold';
     background-color: rgb(10, 12, 27);
-    color: white;
+    color: rgb(168, 168, 168);
 }
 
 .navbar {
@@ -86,16 +86,16 @@ body {
 }
 
 .textDiv span:hover {
-    text-shadow: #bbbba7 0 5px 15px;
+    text-shadow: #e6e6e4 0 5px 15px;
 }
 
 .textDiv h3 {
-    color: rgb(128, 128, 128);
+    color: white;
     transition: ease-in-out 0.5s;
 }
 
 .textDiv h3:hover {
-    text-shadow: #603c67 0 5px 15px;
+    text-shadow: #a960ba 0 5px 15px;
 }
 
 .sectionTwo {
@@ -129,11 +129,11 @@ body {
 }
 
 .textPart p:hover {
-    text-shadow: #bbbba7 0 5px 15px;
+    text-shadow: #eeeeec 0 5px 15px;
 }
 
 .aboutMeText h3 {
-    color: rgb(128, 128, 128);
+    color: white;
     font-size: 35px;
 }
 
@@ -155,6 +155,10 @@ body {
     
 }
 
+.item:hover {
+    color: white;
+}
+
 .item a img {
     border: 5px solid rgb(168, 168, 168);
     margin-bottom: 15px;
@@ -173,15 +177,52 @@ body {
 #projectHeading {
     margin-bottom: 25px;
     margin-top: 15px;
-    color: rgb(128, 128, 128);
+    color: white;
+}
+
+.sectionFour {
+    margin: 25px;
+    margin-top: 45px;
+    background-color: rgb(0, 2, 16);
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* box-shadow: 5px 9px rgb(56, 56, 56); */
 }
 
 .linkStyle a {
-    color: white;
+    color: rgb(168, 168, 168);
     margin-top: 55px;
     text-decoration: none;
 }
 
+.linkStyle a:hover {
+    color: white;
+}
+
 #contactHeading {
-    color: rgb(168, 168, 168);
+    color: white;
+}
+
+#git:hover {
+    box-shadow: 0 5px 15px rgba(255, 138, 234, 0.4);
+}
+
+#linked:hover {
+    box-shadow: 0 5px 15px rgba(112, 126, 236, 0.4);
+}
+
+#fiverr:hover {
+    box-shadow: 0 5px 15px rgba(112, 225, 136, 0.4);
+}
+
+#emailText {
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+#emailText:hover {
+    color: white;
 }
