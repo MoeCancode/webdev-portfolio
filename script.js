@@ -17,3 +17,20 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+ScrollReveal().reveal('#sectionOne', {
+    duration: 2700,
+    reset: true
+});
+ScrollReveal().reveal('#sectionTwo', {
+    duration: 2700,
+    reset: true
+});
+ScrollReveal().reveal('#sectionThree', {
+    duration: 2700,
+    reset: true
+});
+ScrollReveal().reveal('#sectionFour', {
+    duration: 2700,
+    reset: true
+});

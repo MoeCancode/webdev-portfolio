@@ -47,7 +47,7 @@ body {
     max-width: 80%;
 }
 
-.sectionOne {
+#sectionOne {
     /* margin: 25px; */
     margin-top: 0px;
     background-color: rgb(0, 2, 16);
@@ -98,7 +98,7 @@ body {
     text-shadow: #a960ba 0 5px 15px;
 }
 
-.sectionTwo {
+#sectionTwo {
     margin: 25px;
     margin-top: 45px;
     background-color: rgb(0, 2, 16);
@@ -137,7 +137,7 @@ body {
     font-size: 35px;
 }
 
-.sectionThree {
+#sectionThree {
     margin: 25px;
     margin-top: 45px;
     background-color: rgb(0, 2, 16);
@@ -180,7 +180,7 @@ body {
     color: white;
 }
 
-.sectionFour {
+#sectionFour {
     margin: 25px;
     margin-top: 45px;
     background-color: rgb(0, 2, 16);
