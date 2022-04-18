@@ -139,9 +139,21 @@ body {
     box-shadow: 5px 9px rgb(56, 56, 56);
 }
 
-.carouselImages {
-    width: 30vw;
-    height: auto;
+.item {
+    margin-right: 25px;
+    margin-left: 25px;
+    
+}
+
+.item a img {
+    border: 5px solid rgb(168, 168, 168);
+    margin-bottom: 15px;
+    filter: brightness(55%);
+}
+
+.item a img:hover {
+    border-color: white;
+    filter: brightness(100%);
 }
 
 .item h4 {
