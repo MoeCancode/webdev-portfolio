@@ -183,10 +183,15 @@ body {
     text-shadow: #a960ba 0 5px 15px;
 }
 
+.item:hover h4 i {
+    color: white;
+    text-shadow: #a960ba 0 5px 15px;
+}
+
 .item:hover a img {
-    /* border: 3px solid #833558; */
+    border: 3px solid #833558;
     filter: brightness(100%);
-    box-shadow: white 0 5px 15px;
+    /* box-shadow: rgb(84, 83, 83) 0 5px 15px; */
 }
 
 .item h4 {
