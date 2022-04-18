@@ -23,6 +23,7 @@ body {
 
 .navbar ul li:hover {
     background-color: rgb(17, 20, 43);
+    text-shadow: #6063ba 0 5px 5px;
 }
 
 .navbar ul li:hover a {
@@ -32,6 +33,7 @@ body {
 #myName {
     margin-right: 2em;
     color: white;
+    text-shadow: #a960ba 0 5px 15px;
 }
 
 #navbarNavDropdown ul li {
@@ -91,10 +93,6 @@ body {
 
 .textDiv h3 {
     color: white;
-    transition: ease-in-out 0.5s;
-}
-
-.textDiv h3:hover {
     text-shadow: #a960ba 0 5px 15px;
 }
 
@@ -135,6 +133,7 @@ body {
 .aboutMeText h3 {
     color: white;
     font-size: 35px;
+    text-shadow: #a960ba 0 5px 15px;
 }
 
 #sectionThree {
@@ -147,6 +146,11 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     /* box-shadow: 5px 9px rgb(56, 56, 56); */
+}
+
+#projectDescription {
+    text-shadow: #eeeeecbb 0 5px 15px;
+    margin-bottom: 10vh;
 }
 
 .item {
@@ -176,11 +180,13 @@ body {
 
 .item:hover h4 {
     color: white;
+    text-shadow: #a960ba 0 5px 15px;
 }
 
 .item:hover a img {
-    border: 3px solid rgb(64, 224, 184);
+    /* border: 3px solid #833558; */
     filter: brightness(100%);
+    box-shadow: white 0 5px 15px;
 }
 
 .item h4 {
@@ -191,6 +197,7 @@ body {
     margin-bottom: 25px;
     margin-top: 15px;
     color: white;
+    text-shadow: #a960ba 0 5px 15px;
 }
 
 #sectionFour {
@@ -217,6 +224,7 @@ body {
 
 #contactHeading {
     color: white;
+    text-shadow: #a960ba 0 5px 15px;
 }
 
 #git:hover {
