@@ -55,14 +55,14 @@ body {
     padding-top: 40px;
     padding-left: 15px;
     padding-right: 15px;
-    box-shadow: 5px 9px rgb(56, 56, 56);
+    /* box-shadow: 5px 9px rgb(56, 56, 56); */
 
 }
 
 #heroImage {
     width: 50vw;
     height: auto;
-    filter: brightness(55%);
+    filter: brightness(55%) grayscale(30%);
 }
 
 .col {
@@ -113,7 +113,7 @@ body {
 #aboutPicture {
     width: 360px;
     height: auto;
-    filter: brightness(75%);
+    filter: brightness(65%) grayscale(20%);
     border-radius: 5%;
 }
 
@@ -173,4 +173,15 @@ body {
 #projectHeading {
     margin-bottom: 25px;
     margin-top: 15px;
+    color: rgb(128, 128, 128);
+}
+
+.linkStyle a {
+    color: white;
+    margin-top: 55px;
+    text-decoration: none;
+}
+
+#contactHeading {
+    color: rgb(168, 168, 168);
 }
