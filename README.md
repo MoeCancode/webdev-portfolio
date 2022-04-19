@@ -65,7 +65,7 @@ Scroll reveal was added to fade-in divs when they come into the viewport. This a
 
 <br>
 
-Bootstrap classes and flexbox was used to ensure that the website looks just as nice on a monile device. 
+Bootstrap classes and flexbox was used to ensure that the website looks just as nice on a mobile device. 
 
 <br>
 
