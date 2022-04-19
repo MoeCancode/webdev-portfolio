@@ -251,4 +251,5 @@ body {
 
 #emailText:hover {
     color: white;
+    text-shadow: #a960ba 0 5px 15px;
 }
